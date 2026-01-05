@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Statis Starley Raelis Potokatoe</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        display: flex; /* Menggunakan flexbox untuk layout */
+        background-color: #f4f4f4;
+      }
+
+      .sidebar {
+        width: 250px;
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        box-sizing: border-box; /* Padding dihitung dalam lebar */
+        flex-shrink: 0; /* Mencegah sidebar mengecil */
+      }
+
+      .sidebar-image {
+        width: 100%; /* Gambar mengisi lebar sidebar */
+        height: auto;
+        margin-bottom: 15px;
+        border-radius: 5px; /* Sedikit lengkungan pada gambar */
+      }
+
+      .sidebar-title {
+        font-weight: bold;
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .sidebar-item {
+        display: block;
+        padding: 5px 0;
+        color: #ccc;
+        line-height: 1.4;
+      }
+
+      .content-area {
+        flex-grow: 1; /* Konten mengisi sisa ruang */
+        padding: 20px 40px;
+        background-color: #fff;
+        line-height: 1.6;
+        color: #333;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sedikit bayangan pada area konten */
+      }
+
+      .content-area h1 {
+        color: #0056b3;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 2.5rem;
+        margin-top: 0;
+      }
+
+      .content-area h2 {
+        color: #0056b3;
+        margin-bottom: 20px;
+        font-size: 1rem;
+        margin: 0;
+      }
+
+      .content-area p {
+        margin-bottom: 1em;
+        text-align: justify;
+      }
+
+      /* Pembatas tak terlihat (secara teknis tidak perlu elemen, tapi ini untuk visualisasi) */
+      /* Flexbox secara otomatis mengatur ruang tanpa elemen pembatas */
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <img
+        src="IMG_20250602_202526.jpg"
+        alt="Red Archive Logo"
+        class="sidebar-image"
+      />
+      <div class="sidebar-title">Data Diri</div>
+      <div class="sidebar-item">Tanggal Lahir: 4 Mei 2009</div>
+      <div class="sidebar-item">Umur: 16</div>
+      <div class="sidebar-item">Hobi: Belajar Blockchain</div>
+    </div>
+
+    <div class="content-area">
+      <h1>Starley Raelis Potokatoe</h1>
+      <h2>Kesan selama semester 1</h2>
+      <p>
+        Saya merasa selama 1 semester ini ada cukup banyak perkembangan yang
+        terjadi selama pembelajaran terjadi, terkadang ada momen sedih terkadang
+        juga ada momen bahagia dan semua itu berharga bagi saya, saya belajar
+        untuk bersabar dan menikmati proses perkembangan bukan membandingkan
+        diri sendiri dengan orang lain, karena semua orang punya jalan mereka
+        masing masing.
+      </p>
+      <h2>Kesan selama liburan 2 minggu</h2>
+      <p>
+        Selama liburan saya menggunakan waktu luang yang dimiliki untuk
+        bersantai dari tugas tugas dari sekolah, namun terkadang saya mencoba
+        untuk mempelajari hal hal baru salah satunya adalah mencoba OS baru.
+        selain itu juga setelah memasuki musim liburan tak jarang keluarga dan
+        saya untuk pergi keluar untuk sekedar berjalan jalan ataupun hunting
+        makanan. Saya tidak tau mau bicara apa selama Natal karena yang saya
+        lakukan hanya beribadah di gereja. Malam tahun baru adalah momen yang
+        cukup seru yang dimana keluarga besar berkumpul untuk merayakan tahun
+        baru.
+      </p>
+      <h2>Harapan Untuk Kedepannya</h2>
+      <p>
+        Semoga Kedepannya saya dapat belajar lebih rajin, bukan hanya di sekolah
+        namun dimanapun saya berada
+      </p>
+    </div>
+  </body>
+</html>
